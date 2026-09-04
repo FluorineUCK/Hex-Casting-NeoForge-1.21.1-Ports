@@ -18,7 +18,8 @@
       "upstreamUrl": "https://github.com/TheRobbie73/yaha.git",
       "upstreamBranch": "master",
       "upstreamCommit": "02ebb9b9b178f4dd4e37437bce393801a0bc4baa",
-      "portCommit": "dbbd9d31b1f3106b9ae38e36fc1385ca80a7dfd8"
+      "portCommit": "481566048b5f48b1df56cf8ae735052c8264b02b",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/Yaha-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hex-addons",
@@ -34,7 +35,8 @@
       "upstreamUrl": "https://tangled.org/pool.net.eu.org/hex-addons",
       "upstreamBranch": "main",
       "upstreamCommit": "a900aacc1fc6d48af13de1bc48847a3a51dcc789",
-      "portCommit": "ad6ec53e5e234998f2e8408d3d34c6d1c2473391"
+      "portCommit": "703f26a1b62e60741df1d8addbb909207784c2a8",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/Hex-Addons-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexxytounge",
@@ -48,7 +50,8 @@
       "upstreamUrl": "https://iris.radicle.network/rad:zChmxddnxPemALy4RuZ7zQgzDxYv",
       "upstreamBranch": "main",
       "upstreamCommit": "86026d57bcfcca48fc0d1a0280b541bc41d0bb9d",
-      "portCommit": "c086f986a11fca77fde91abd1df3fb72ded795d8"
+      "portCommit": "32eabb2c584b382fb1cda9bc56fcdab7c2af6d7a",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/HexxyTounge-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexdebug",
@@ -62,7 +65,8 @@
       "upstreamUrl": "https://github.com/object-Object/HexDebug.git",
       "upstreamBranch": "main",
       "upstreamCommit": "8fc7e24e8313dc78433138100311fd81352716e3",
-      "portCommit": "cdd5de1f4fd44bb1c6eeb9cc8c39acaa3cbed8c4"
+      "portCommit": "de806cf369b4dc4322d5123ee46b45d5f956be3a",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/HexDebug-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hextweaks",
@@ -76,7 +80,8 @@
       "upstreamUrl": "https://github.com/walksanatora/HexTweaks.git",
       "upstreamBranch": "upstream-1.20",
       "upstreamCommit": "624ff839ecd6d097806fb72d138166d6f85491aa",
-      "portCommit": "b96cb9f268aeac3aecae96e6802a377e0ce2a2bd"
+      "portCommit": "2b4e6be5e6f766eb2549796bcd9ea993a476acea",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/HexTweaks-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexcessible",
@@ -90,7 +95,8 @@
       "upstreamUrl": "https://github.com/tizu69/hexcessible.git",
       "upstreamBranch": "mc/1.21.1",
       "upstreamCommit": "17048b9c4890d891cabfaffdde96ba62d7ee7828",
-      "portCommit": "4a77252c332de18ce0f04890669f6f3ae8aa5a51"
+      "portCommit": "bc500b959f96b23451f614180e0ef8fc437da4e1",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/Hexcessible-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexresearch",
@@ -104,7 +110,8 @@
       "upstreamUrl": "https://github.com/dashkal16/HexResearch.git",
       "upstreamBranch": "main",
       "upstreamCommit": "f5ca4b17e6603a8fc735290321b72c36c7252c2e",
-      "portCommit": "58936c2f3bcc290c99f2a7cfdc1ed89028db7380"
+      "portCommit": "6c90b13d78aa52b6cbab80dd2d27b8b77e345c25",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/HexResearch-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexal",
@@ -118,7 +125,8 @@
       "upstreamUrl": "https://github.com/FallingColors/Hexal.git",
       "upstreamBranch": "main",
       "upstreamCommit": "b0d90daa44ab278974dc735934b927478a6e84c7",
-      "portCommit": "fbda860e987f7d6c6d2415bb88a5d7ffdc5fd3fa"
+      "portCommit": "4ea0dca26dcab55933dd2878a4e4b4a4a2675066",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/Hexal-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexical",
@@ -132,7 +140,8 @@
       "upstreamUrl": "https://github.com/miyucomics/hexical.git",
       "upstreamBranch": "main",
       "upstreamCommit": "c98ae178afe8345f7d90200a91f7840982159cd7",
-      "portCommit": "d24dbf32c77f43e6324fc257ecef934dce29d092"
+      "portCommit": "c2fc5b9b232d718a97ecb0f89299fe45a28a3911",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/Hexical-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexpose",
@@ -146,7 +155,8 @@
       "upstreamUrl": "https://github.com/miyucomics/hexpose.git",
       "upstreamBranch": "main",
       "upstreamCommit": "9f97e8482d369de3bd2f3e2ae4a803b071521f83",
-      "portCommit": "5486a9a7743d19a5380cc763e4ad8055584ccc61"
+      "portCommit": "273ba5e89fbf930355e07029584f25ccc5a662ff",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/Hexpose-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "oneironaut",
@@ -160,7 +170,8 @@
       "upstreamUrl": "https://github.com/beholderface/oneironaut.git",
       "upstreamBranch": "1.20.1",
       "upstreamCommit": "d4d3abaf41d6ab667f9016b1cc95eb432f796614",
-      "portCommit": "84ea7169df62f25e80a1929325259a9b379fc571"
+      "portCommit": "cef09d9b8b80d9ab472e0e5d75d40271d9a28682",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/Oneironaut-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexkinetics",
@@ -174,7 +185,8 @@
       "upstreamUrl": "https://github.com/Sonunte/HexKinetics.git",
       "upstreamBranch": "master",
       "upstreamCommit": "ab7a71b43c6e6eb4a5932327eff7d9b6d8de56ab",
-      "portCommit": "c901e3bdf52cc0512c8da41243e81410bb123e46"
+      "portCommit": "68df17c5438fdefa7972f9307f99d32382af0078",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/HexKinetics-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexcellular",
@@ -188,7 +200,8 @@
       "upstreamUrl": "https://github.com/miyucomics/hexcellular.git",
       "upstreamBranch": "main",
       "upstreamCommit": "a5d5f63575fde1bf38bb272b61f71f30d063c872",
-      "portCommit": "1cf08df89646396bde15e5fae4e584bf1f5f98ad"
+      "portCommit": "279f77c9ece1b7a237acfa361a7fd2e83e541a4d",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/HexCellular-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "moreiotas",
@@ -202,7 +215,8 @@
       "upstreamUrl": "https://github.com/FallingColors/MoreIotas.git",
       "upstreamBranch": "main",
       "upstreamCommit": "0d96e56c3cff5657cdeeb8394ba7b0c9c6a48387",
-      "portCommit": "6e7ac112ab7482bfa16af646624dac1fabc8430c"
+      "portCommit": "dc7fd8cb32612856e318553b6cb143a2098ca46f",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/MoreIotas-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexguide",
@@ -216,7 +230,8 @@
       "upstreamUrl": "https://github.com/xm1221/HexGuide.git",
       "upstreamBranch": "main",
       "upstreamCommit": "449d902f80f769295db00805fa0134634d7707f3",
-      "portCommit": "fabf77810a0c7a9f1b2870da489f5e0acc5a4944"
+      "portCommit": "f5ff5efad002aa2e8a89bd03e14e021be49d66de",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/HexGuide-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexcassettes",
@@ -230,7 +245,8 @@
       "upstreamUrl": "https://github.com/miyucomics/hexcassettes.git",
       "upstreamBranch": "main",
       "upstreamCommit": "241f932c3e6e9c8cf38522b4816fd66c97a3f67e",
-      "portCommit": "a8dc39a6fdbe3b98a0b6eba56334e96bfec470d6"
+      "portCommit": "52922550b973fd07b921636d854266e573e2d970",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/HexCassettes-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "mediaworks",
@@ -244,7 +260,8 @@
       "upstreamUrl": "https://github.com/artynova/mediaworks.git",
       "upstreamBranch": "main",
       "upstreamCommit": "f7c45ee52c1119711dad9b71006444b3e43d7d7b",
-      "portCommit": "c3dfa22ed09212a8eac7a6fcad2afa2837df1ed0"
+      "portCommit": "f797e5e7e7fca03b66747fd5cc88790ecc2b5a59",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/Mediaworks-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     },
     {
       "key": "hexxysable",
@@ -258,7 +275,38 @@
       "upstreamUrl": "https://github.com/TechTastic/HexxySkies.git",
       "upstreamBranch": "master",
       "upstreamCommit": "aa0a3be11ceabe795010403626d1919db22fe584",
-      "portCommit": "2a3dc4907c644c474ba331ec6e1f53c4fa7a2a00"
+      "portCommit": "e8d7f3ce00a2c6f0d6f66e0b9eabc99d2c0b7d31",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/HexxySable-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+    },
+    {
+      "key": "caduceus",
+      "repository": "Caduceus-NeoForge-1.21.1",
+      "url": "https://github.com/FluorineUCK/Caduceus-NeoForge-1.21.1",
+      "branch": "pre39",
+      "sourceGroup": "24-caduceus-neoforge-port",
+      "artifacts": [
+        "caduceus"
+      ],
+      "upstreamUrl": "https://github.com/object-Object/Caduceus.git",
+      "upstreamBranch": "main",
+      "upstreamCommit": "8675e9b72ca99a0b5efe4169b1250334f0fc0455",
+      "portCommit": "d40053e9547151a4ed6a196f495e9a7a5d1c2e96",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/Caduceus-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+    },
+    {
+      "key": "heartxxy",
+      "repository": "Heartxxy-NeoForge-1.21.1",
+      "url": "https://github.com/FluorineUCK/Heartxxy-NeoForge-1.21.1",
+      "branch": "pre39",
+      "sourceGroup": "25-heartxxy-neoforge-port",
+      "artifacts": [
+        "pregxxy"
+      ],
+      "upstreamUrl": "https://github.com/SoccPuppet/heartxxy.git",
+      "upstreamBranch": "master",
+      "upstreamCommit": "dd258c7fa30e98899153d5c5dba551832ca73e36",
+      "portCommit": "d08537f990e6bb4af35f06254b827cf550ade365",
+      "upstreamDocumentation": "https://github.com/FluorineUCK/Heartxxy-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
     }
   ],
   "exclusions": [
