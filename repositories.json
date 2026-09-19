@@ -1,318 +1,1310 @@
 {
-  "schemaVersion": 1,
-  "owner": "FluorineUCK",
-  "branch": "pre39",
-  "minecraftVersion": "1.21.1",
-  "neoForgeVersion": "21.1.234",
-  "hexCastingVersion": "0.12.0-devel-pre-39",
+  "minecraft": "1.21.1",
+  "neoForge": "21.1.234",
+  "java": 21,
+  "hexcasting": "0.12.0-devel-pre-53",
+  "branch": "pre53",
+  "tag": "neoforge-1.21.1-hexcasting-pre53",
   "repositories": [
     {
       "key": "yaha",
-      "repository": "Yaha-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/Yaha-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "01-yaha-source",
-      "artifacts": [
-        "yaha"
-      ],
+      "name": "Yaha-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/Yaha-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/TheRobbie73/yaha.git",
-      "upstreamBranch": "master",
-      "upstreamCommit": "02ebb9b9b178f4dd4e37437bce393801a0bc4baa",
-      "portCommit": "481566048b5f48b1df56cf8ae735052c8264b02b",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/Yaha-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "upstreamCommit": "76af8571f4e14879e44587d25d06b58da6ae4633",
+      "artifacts": [
+        {
+          "modid": "yaha",
+          "file": "yaha-0.4.0.jar",
+          "sha256": "ff7369dbd78171b9783e3b136fd1374b0af08f08123708459cee074d0b561fd8",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.111,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "architectury",
+              "type": "required",
+              "versionRange": "[13.0.8,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.5.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hex-addons",
-      "repository": "Hex-Addons-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/Hex-Addons-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "02-tangled-source",
-      "artifacts": [
-        "phlib",
-        "iotaworks",
-        "hexic"
-      ],
+      "name": "Hex-Addons-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/Hex-Addons-NeoForge-1.21.1",
       "upstreamUrl": "https://tangled.org/pool.net.eu.org/hex-addons",
-      "upstreamBranch": "main",
-      "upstreamCommit": "a900aacc1fc6d48af13de1bc48847a3a51dcc789",
-      "portCommit": "703f26a1b62e60741df1d8addbb909207784c2a8",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/Hex-Addons-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "upstreamCommit": "89ae022236c59d417358967b8008d8ee272797da",
+      "artifacts": [
+        {
+          "modid": "phlib",
+          "file": "phlib-0.1.4-neoforge-probe.jar",
+          "sha256": "332b99c98b8b96ff85277fe88d9defe545d5cc3663b647f78a48084108525854",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        },
+        {
+          "modid": "iotaworks",
+          "file": "iotaworks-0.1.4-neoforge-probe.jar",
+          "sha256": "c971aea47435b5d7d3ed44415d83fb5babe67c5b10034fd87d31798269133097",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "phlib",
+              "type": "required",
+              "versionRange": "[0.1.3,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcellular",
+              "type": "required",
+              "versionRange": "[1.1.1+1.21.1-neoforge-pre53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        },
+        {
+          "modid": "hexic",
+          "file": "hexic-2.1.1-neoforge-probe.jar",
+          "sha256": "e25795954a6fc9e9c7c6e6fb8388928a75a66c99a924ef5dafc3cce2094e451a",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "phlib",
+              "type": "required",
+              "versionRange": "[0.1.3,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "iotaworks",
+              "type": "required",
+              "versionRange": "[0.1.4,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcellular",
+              "type": "required",
+              "versionRange": "[1.1.1+1.21.1-neoforge-pre53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "curios",
+              "type": "required",
+              "versionRange": "[9.5.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "moreiotas",
+              "type": "required",
+              "versionRange": "[0.1.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexal",
+              "type": "required",
+              "versionRange": "[0.3.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "oneironaut",
+              "type": "required",
+              "versionRange": "[0.5.0,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexxytounge",
-      "repository": "HexxyTounge-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/HexxyTounge-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "03-radicle-source",
-      "artifacts": [
-        "hexxytounge"
-      ],
+      "name": "HexxyTounge-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/HexxyTounge-NeoForge-1.21.1",
       "upstreamUrl": "https://iris.radicle.network/rad:zChmxddnxPemALy4RuZ7zQgzDxYv",
-      "upstreamBranch": "main",
-      "upstreamCommit": "86026d57bcfcca48fc0d1a0280b541bc41d0bb9d",
-      "portCommit": "32eabb2c584b382fb1cda9bc56fcdab7c2af6d7a",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/HexxyTounge-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "upstreamCommit": "559230b658f77ae522c051799ca71566448dd5a3",
+      "artifacts": [
+        {
+          "modid": "hexxytounge",
+          "file": "hexxytounge-0.1.0-neoforge-probe.jar",
+          "sha256": "14b7b65604a1b24a452c20cd91e4d73da03a66aa5eb4a132877e65ee421b81ca",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexic",
+              "type": "required",
+              "versionRange": "[2.1.0,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "phlib",
+              "type": "required",
+              "versionRange": "[0.1.3,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexdebug",
-      "repository": "HexDebug-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/HexDebug-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "06-hexdebug-neoforge-port",
-      "artifacts": [
-        "hexdebug"
-      ],
+      "name": "HexDebug-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/HexDebug-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/object-Object/HexDebug.git",
-      "upstreamBranch": "main",
-      "upstreamCommit": "8fc7e24e8313dc78433138100311fd81352716e3",
-      "portCommit": "de806cf369b4dc4322d5123ee46b45d5f956be3a",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/HexDebug-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "upstreamCommit": "8faa1a43983953867b68fd91eb3775d568e53cad",
+      "artifacts": [
+        {
+          "modid": "hexdebug",
+          "file": "hexdebug-neoforge-0.9.0+1.21.1-SNAPSHOT.jar",
+          "sha256": "2265f12b649288bb6b8cc6512d8c74bf1c1559fd697fb5247ec3171a56b579ba",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "architectury",
+              "type": "required",
+              "versionRange": "[13.0.8,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "cloth_config",
+              "type": "required",
+              "versionRange": "[15.0.130,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "emi",
+              "type": "optional",
+              "versionRange": "[1.1.22+1.21.1,)",
+              "ordering": "NONE",
+              "side": "CLIENT"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hextweaks",
-      "repository": "HexTweaks-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/HexTweaks-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "07-hextweaks-neoforge-port",
-      "artifacts": [
-        "hextweaks"
-      ],
+      "name": "HexTweaks-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/HexTweaks-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/walksanatora/HexTweaks.git",
-      "upstreamBranch": "upstream-1.20",
       "upstreamCommit": "624ff839ecd6d097806fb72d138166d6f85491aa",
-      "portCommit": "2b4e6be5e6f766eb2549796bcd9ea993a476acea",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/HexTweaks-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "artifacts": [
+        {
+          "modid": "hextweaks",
+          "file": "hextweaks-5.3.3.jar",
+          "sha256": "c34474f286d190f6b6ccbb96238808180dc28ca994daa5bda622d2465f76625f",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "architectury",
+              "type": "required",
+              "versionRange": "[13.0.8,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "computercraft",
+              "type": "optional",
+              "versionRange": "[1.120.0,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "patchouli",
+              "type": "required",
+              "versionRange": "[1.21.1-93-NEOFORGE,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "moreiotas",
+              "type": "optional",
+              "versionRange": "[0.1.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexal",
+              "type": "optional",
+              "versionRange": "[0.3.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexcessible",
-      "repository": "Hexcessible-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/Hexcessible-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "08-hexcessible-neoforge-port",
-      "artifacts": [
-        "hexcessible"
-      ],
+      "name": "Hexcessible-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/Hexcessible-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/tizu69/hexcessible.git",
-      "upstreamBranch": "mc/1.21.1",
-      "upstreamCommit": "17048b9c4890d891cabfaffdde96ba62d7ee7828",
-      "portCommit": "bc500b959f96b23451f614180e0ef8fc437da4e1",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/Hexcessible-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "upstreamCommit": "8f40fb93d2c30b42f145c3ccfd3a9a4195b36adb",
+      "artifacts": [
+        {
+          "modid": "hexcessible",
+          "file": "hexcessible-0.3.2-devel.jar",
+          "sha256": "246e86cd6bb720f31e3e45648cf036c5fbcae644c9c102ac0ac99fc87563cca5",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.111,)",
+              "ordering": "NONE",
+              "side": "CLIENT"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "CLIENT"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "CLIENT"
+            },
+            {
+              "modId": "cloth_config",
+              "type": "required",
+              "versionRange": "[15.0.130,)",
+              "ordering": "AFTER",
+              "side": "CLIENT"
+            },
+            {
+              "modId": "patchouli",
+              "type": "required",
+              "versionRange": "[1.21.1-92,)",
+              "ordering": "AFTER",
+              "side": "CLIENT"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexresearch",
-      "repository": "HexResearch-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/HexResearch-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "09-hexresearch-neoforge-port",
-      "artifacts": [
-        "hexresearch"
-      ],
+      "name": "HexResearch-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/HexResearch-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/dashkal16/HexResearch.git",
-      "upstreamBranch": "main",
       "upstreamCommit": "f5ca4b17e6603a8fc735290321b72c36c7252c2e",
-      "portCommit": "6c90b13d78aa52b6cbab80dd2d27b8b77e345c25",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/HexResearch-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "artifacts": [
+        {
+          "modid": "hexresearch",
+          "file": "hexresearch-neoforge-1.21.1-1.0.2-indev.jar",
+          "sha256": "8282aae433885220ffc0fc23fe63232b6b23d1ad65bfe209d390f5d4c3113b2e",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.111,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "architectury",
+              "type": "required",
+              "versionRange": "[13.0.8,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexal",
-      "repository": "Hexal-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/Hexal-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "11-hexal-neoforge-port",
-      "artifacts": [
-        "hexal"
-      ],
+      "name": "Hexal-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/Hexal-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/FallingColors/Hexal.git",
-      "upstreamBranch": "main",
       "upstreamCommit": "b0d90daa44ab278974dc735934b927478a6e84c7",
-      "portCommit": "4ea0dca26dcab55933dd2878a4e4b4a4a2675066",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/Hexal-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "artifacts": [
+        {
+          "modid": "hexal",
+          "file": "hexal-0.3.1+1.21.1-neoforge.jar",
+          "sha256": "3386955ce558287aab2f84837db354705bb53b1ceb6da4e030ed36143043eca0",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1]",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "paucal",
+              "type": "required",
+              "versionRange": "[0.7.1-pre-27,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "patchouli",
+              "type": "required",
+              "versionRange": "[1.21.1-93-NEOFORGE,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "moreiotas",
+              "type": "required",
+              "versionRange": "[0.1.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "geckolib",
+              "type": "required",
+              "versionRange": "[4.9.2,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexdebug",
+              "type": "optional",
+              "versionRange": "[0.8.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexical",
-      "repository": "Hexical-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/Hexical-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "15-hexical-neoforge-port",
-      "artifacts": [
-        "hexical"
-      ],
+      "name": "Hexical-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/Hexical-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/miyucomics/hexical.git",
-      "upstreamBranch": "main",
-      "upstreamCommit": "c98ae178afe8345f7d90200a91f7840982159cd7",
-      "portCommit": "c2fc5b9b232d718a97ecb0f89299fe45a28a3911",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/Hexical-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "upstreamCommit": "98fab423962ec8db9108b5bbab569c4c5c0f7c4c",
+      "artifacts": [
+        {
+          "modid": "hexical",
+          "file": "hexical-neoforge-2.0.0+1.21.1-neoforge-pre53.jar",
+          "sha256": "3ca82785a313a176735a1cf7d2e369aff12ebe1380f8cbd3a0660b129b8e710a",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexpose",
+              "type": "required",
+              "versionRange": "[3.0.0,4.0.0)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "playeranimator",
+              "type": "required",
+              "versionRange": "[2.0.4,)",
+              "ordering": "AFTER",
+              "side": "CLIENT"
+            },
+            {
+              "modId": "moreiotas",
+              "type": "required",
+              "versionRange": "[0.1.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexpose",
-      "repository": "Hexpose-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/Hexpose-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "15a-hexpose-neoforge-port",
-      "artifacts": [
-        "hexpose"
-      ],
+      "name": "Hexpose-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/Hexpose-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/miyucomics/hexpose.git",
-      "upstreamBranch": "main",
       "upstreamCommit": "9f97e8482d369de3bd2f3e2ae4a803b071521f83",
-      "portCommit": "273ba5e89fbf930355e07029584f25ccc5a662ff",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/Hexpose-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "artifacts": [
+        {
+          "modid": "hexpose",
+          "file": "hexpose-neoforge-3.0.0+1.21.1-neoforge-pre53.jar",
+          "sha256": "299c61c6743cde1d2b6329ec65a062181b25b2ac82c3195747c6df74424eb806",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "moreiotas",
+              "type": "required",
+              "versionRange": "[0.1.1+1.21.1-neoforge-pre53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "oneironaut",
-      "repository": "Oneironaut-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/Oneironaut-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "16-oneironaut-neoforge-port",
-      "artifacts": [
-        "oneironaut"
-      ],
+      "name": "Oneironaut-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/Oneironaut-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/beholderface/oneironaut.git",
-      "upstreamBranch": "1.20.1",
-      "upstreamCommit": "d4d3abaf41d6ab667f9016b1cc95eb432f796614",
-      "portCommit": "cef09d9b8b80d9ab472e0e5d75d40271d9a28682",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/Oneironaut-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "upstreamCommit": "e65eceaefc7b7e8dd14d1d218e4d1c1ba43642ae",
+      "artifacts": [
+        {
+          "modid": "oneironaut",
+          "file": "oneironaut-neoforge-0.5.0+1.21.1-neoforge-pre53.jar",
+          "sha256": "d2f70cc8597c2c92cbbc81a040ecb46e21ee25940b20f7973c9625e17a473fbc",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "architectury",
+              "type": "required",
+              "versionRange": "[13.0.8,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexal",
+              "type": "required",
+              "versionRange": "[0.3.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "moreiotas",
+              "type": "required",
+              "versionRange": "[0.1.1+1.21.1-neoforge-pre53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "patchouli",
+              "type": "required",
+              "versionRange": "[1.21-90,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexkinetics",
-      "repository": "HexKinetics-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/HexKinetics-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "17-hexkinetics-neoforge-port",
-      "artifacts": [
-        "hexkinetics"
-      ],
+      "name": "HexKinetics-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/HexKinetics-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/Sonunte/HexKinetics.git",
-      "upstreamBranch": "master",
       "upstreamCommit": "ab7a71b43c6e6eb4a5932327eff7d9b6d8de56ab",
-      "portCommit": "68df17c5438fdefa7972f9307f99d32382af0078",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/HexKinetics-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "artifacts": [
+        {
+          "modid": "hexkinetics",
+          "file": "hexkinetics-neoforge-0.7.3+1.21.1-neoforge-pre53.jar",
+          "sha256": "bca2fb03e4746e6dce8886945f8a8f45a1be175b5ef55c1538a043c4a0799b44",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "patchouli",
+              "type": "required",
+              "versionRange": "[1.21-90,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexcellular",
-      "repository": "HexCellular-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/HexCellular-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "18-hexcellular-neoforge-port",
-      "artifacts": [
-        "hexcellular"
-      ],
+      "name": "HexCellular-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/HexCellular-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/miyucomics/hexcellular.git",
-      "upstreamBranch": "main",
       "upstreamCommit": "a5d5f63575fde1bf38bb272b61f71f30d063c872",
-      "portCommit": "279f77c9ece1b7a237acfa361a7fd2e83e541a4d",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/HexCellular-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "artifacts": [
+        {
+          "modid": "hexcellular",
+          "file": "hexcellular-1.1.1+1.21.1-neoforge-pre53.jar",
+          "sha256": "bc9668853da552bf328f36afb4698677de962b499bd708d950e3b54bd5452a08",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.11,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "patchouli",
+              "type": "optional",
+              "versionRange": "[1.21.1-92,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "moreiotas",
-      "repository": "MoreIotas-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/MoreIotas-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "19-moreiotas-neoforge-port",
-      "artifacts": [
-        "moreiotas"
-      ],
+      "name": "MoreIotas-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/MoreIotas-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/FallingColors/MoreIotas.git",
-      "upstreamBranch": "main",
       "upstreamCommit": "0d96e56c3cff5657cdeeb8394ba7b0c9c6a48387",
-      "portCommit": "dc7fd8cb32612856e318553b6cb143a2098ca46f",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/MoreIotas-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "artifacts": [
+        {
+          "modid": "moreiotas",
+          "file": "moreiotas-0.1.1+1.21.1-neoforge-pre53.jar",
+          "sha256": "04fd53fddfa8c21a448becd25ec0692c02dc076ddfc745eaa700705fd9474e23",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1]",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "paucal",
+              "type": "required",
+              "versionRange": "[0.7.1-pre-27,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "patchouli",
+              "type": "required",
+              "versionRange": "[1.21.1-92-NEOFORGE,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexguide",
-      "repository": "HexGuide-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/HexGuide-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "20-hexguide-neoforge-port",
-      "artifacts": [
-        "hexguide"
-      ],
+      "name": "HexGuide-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/HexGuide-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/xm1221/HexGuide.git",
-      "upstreamBranch": "main",
-      "upstreamCommit": "449d902f80f769295db00805fa0134634d7707f3",
-      "portCommit": "119ffffec253b694eecba01a752069af32190032",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/HexGuide-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "upstreamCommit": "a5cdd6db0c9e57218a13c55df576bd89b397e2ad",
+      "artifacts": [
+        {
+          "modid": "hexguide",
+          "file": "hexguide-neoforge-0.0.2+1.21.1-neoforge-pre53.jar",
+          "sha256": "467e4de600479ed5668ca1642992526acc6e928ff5f870c2c5ec5d877188233c",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "patchouli",
+              "type": "required",
+              "versionRange": "[1.21.1-93,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "inline",
+              "type": "required",
+              "versionRange": "[1.2.2,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexcassettes",
-      "repository": "HexCassettes-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/HexCassettes-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "21-hexcassettes-neoforge-port",
-      "artifacts": [
-        "hexcassettes"
-      ],
+      "name": "HexCassettes-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/HexCassettes-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/miyucomics/hexcassettes.git",
-      "upstreamBranch": "main",
       "upstreamCommit": "241f932c3e6e9c8cf38522b4816fd66c97a3f67e",
-      "portCommit": "52922550b973fd07b921636d854266e573e2d970",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/HexCassettes-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "artifacts": [
+        {
+          "modid": "hexcassettes",
+          "file": "hexcassettes-1.0.0+1.21.1-neoforge-pre53.jar",
+          "sha256": "ab6403247449c74ad6b89a0c4de3d38d879e19ca9e4ccf6d08cb76a71d0e08dc",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexpose",
+              "type": "required",
+              "versionRange": "[1.0.0,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "mediaworks",
-      "repository": "Mediaworks-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/Mediaworks-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "22-mediaworks-neoforge-port",
-      "artifacts": [
-        "mediaworks"
-      ],
+      "name": "Mediaworks-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/Mediaworks-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/artynova/mediaworks.git",
-      "upstreamBranch": "main",
       "upstreamCommit": "f7c45ee52c1119711dad9b71006444b3e43d7d7b",
-      "portCommit": "f797e5e7e7fca03b66747fd5cc88790ecc2b5a59",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/Mediaworks-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "artifacts": [
+        {
+          "modid": "mediaworks",
+          "file": "mediaworks-neoforge-1.0.8+1.21.1-neoforge-pre53.jar",
+          "sha256": "be3ca682410f700d2ba685f614058987514efdeaab3e5c0f6b122322e2b3fe50",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "geckolib",
+              "type": "required",
+              "versionRange": "[4.9.2,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "curios",
+              "type": "optional",
+              "versionRange": "[9.5.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "moreiotas",
+              "type": "optional",
+              "versionRange": "[0.1.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexpose",
+              "type": "optional",
+              "versionRange": "[1.0.0,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "supplementaries",
+              "type": "optional",
+              "versionRange": "[1.21.1-3.0.0,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "patchouli",
+              "type": "optional",
+              "versionRange": "[1.21.1-93-NEOFORGE,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "hexxysable",
-      "repository": "HexxySable-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/HexxySable-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "23-hexxysable-neoforge-port",
-      "artifacts": [
-        "hexxysable"
-      ],
+      "name": "HexxySable-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/HexxySable-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/TechTastic/HexxySkies.git",
-      "upstreamBranch": "master",
       "upstreamCommit": "aa0a3be11ceabe795010403626d1919db22fe584",
-      "portCommit": "e8d7f3ce00a2c6f0d6f66e0b9eabc99d2c0b7d31",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/HexxySable-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "artifacts": [
+        {
+          "modid": "hexxysable",
+          "file": "hexxysable-neoforge-2.0.2+1.21.1-neoforge-pre53.jar",
+          "sha256": "1f674fb2b9acdbaaa64eb102f771643b50c2e5b8e1bde5e6edac71aea2d8a893",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.228,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1]",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "sable",
+              "type": "required",
+              "versionRange": "[2.0.3,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "sablecompanion",
+              "type": "required",
+              "versionRange": "[1.6.0,1.6.1)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "patchouli",
+              "type": "optional",
+              "versionRange": "[1.21.1-93-NEOFORGE,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "moreiotas",
+              "type": "optional",
+              "versionRange": "[0.1.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexical",
+              "type": "optional",
+              "versionRange": "[2.0.0,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexal",
+              "type": "optional",
+              "versionRange": "[0.3.1,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "caduceus",
-      "repository": "Caduceus-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/Caduceus-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "24-caduceus-neoforge-port",
-      "artifacts": [
-        "caduceus"
-      ],
+      "name": "Caduceus-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/Caduceus-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/object-Object/Caduceus.git",
-      "upstreamBranch": "main",
       "upstreamCommit": "8675e9b72ca99a0b5efe4169b1250334f0fc0455",
-      "portCommit": "d40053e9547151a4ed6a196f495e9a7a5d1c2e96",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/Caduceus-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
+      "artifacts": [
+        {
+          "modid": "caduceus",
+          "file": "caduceus-neoforge-0.3.0+1.21.1-neoforge-pre53.jar",
+          "sha256": "0d567b91d04aa7dd84c6a513b0e4ca33b6a6c6ff1b71c9979deb527c522e8fe6",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     },
     {
       "key": "heartxxy",
-      "repository": "Heartxxy-NeoForge-1.21.1",
-      "url": "https://github.com/FluorineUCK/Heartxxy-NeoForge-1.21.1",
-      "branch": "pre39",
-      "sourceGroup": "25-heartxxy-neoforge-port",
-      "artifacts": [
-        "pregxxy"
-      ],
+      "name": "Heartxxy-NeoForge-1.21.1",
+      "repository": "https://github.com/FluorineUCK/Heartxxy-NeoForge-1.21.1",
       "upstreamUrl": "https://github.com/SoccPuppet/heartxxy.git",
-      "upstreamBranch": "master",
       "upstreamCommit": "dd258c7fa30e98899153d5c5dba551832ca73e36",
-      "portCommit": "d08537f990e6bb4af35f06254b827cf550ade365",
-      "upstreamDocumentation": "https://github.com/FluorineUCK/Heartxxy-NeoForge-1.21.1/blob/pre39/UPSTREAM.md"
-    }
-  ],
-  "exclusions": [
-    {
-      "key": "hexoverpowered",
-      "reason": "Not published because the original author does not permit submission."
+      "artifacts": [
+        {
+          "modid": "pregxxy",
+          "file": "pregxxy-neoforge-0.1.0+1.21.1-neoforge-pre53.jar",
+          "sha256": "654564f73f5dbc1dd0d8280693afe79295fc919d773ea664ad1f6b2d96999509",
+          "dependencies": [
+            {
+              "modId": "neoforge",
+              "type": "required",
+              "versionRange": "[21.1.234,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "type": "required",
+              "versionRange": "[1.21.1,1.21.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "kotlinforforge",
+              "type": "required",
+              "versionRange": "[5.12.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "hexcasting",
+              "type": "required",
+              "versionRange": "[0.12.0-devel-pre-53]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
